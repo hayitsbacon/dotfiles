@@ -1,0 +1,1 @@
+0 */6 * * * touch /root/.weather_update >/dev/null 2>&1

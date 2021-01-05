@@ -1,0 +1,18 @@
+###
+### Git credentials
+###
+GIT_AUTHOR_NAME="Hayden Bacon"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="hcbacon97@arizona.edu"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
+GH_USER="hayitsbacon"
+git config --global github.user "$GH_USER"
+
+###
+### Gmail credentials
+###
+export GMAIL=haydenbacon@gmail.com
+export GMAIL_NAME="Hayden Bacon"
+export GMAIL_FROM=haydenbacon@gmail.com

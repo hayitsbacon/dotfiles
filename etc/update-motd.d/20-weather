@@ -1,0 +1,5 @@
+#!/bin/sh
+
+[ ! -f /root/.weather_update ] && exit 0
+weather
+rm /root/.weather_update
